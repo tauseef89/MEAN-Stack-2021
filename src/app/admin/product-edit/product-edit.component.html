@@ -1,0 +1,12 @@
+
+<form [formGroup]="form" (submit)="submit()">
+    <label>Title</label>
+    <input type="text" name="title" formControlName="title">
+    <label>Price</label>
+    <input type="text" name="price" formControlName="price">
+    <label>Details</label>
+    <input type="text" name="details" formControlName="details">
+    <label>Image</label>
+    <input type="text" name="image" formControlName="image">
+    <button type="submit">Save</button>
+</form>
